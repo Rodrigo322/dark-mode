@@ -21,8 +21,6 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <Form />
-        <br />
-        <br />
         <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
       </div>
     </ThemeContext.Provider>
