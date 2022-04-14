@@ -1,6 +1,7 @@
 {
   "name": "dark",
   "private": true,
+   "homepage": "github-page/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
